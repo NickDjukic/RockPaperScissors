@@ -5,12 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nick's Rock Paper Scissors</title>
-    <link type="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
+    <div class="container">
+        <div class="result">
+            <div class="playerChoice">Player Choice</div>
+            <div class="displayResults">Result</div>
+            <div class="computerChoice">Computer Choice</div>
 
-
+        </div>
+        <div class="displayScore">
+            <div class="Box" id="player">
+                <div>You</div>
+                <div class="playerScore">0</div>
+            </div>
+            <div class="Box" id="computer">
+                <div>Computer</div>
+                <div class="computerScore">0</div>
+            </div>
+        </div>
+        <div class="choicecontainer">
+            <div class="choice" id="rock">rock</div>
+            <div class="choice" id="paper">paper</div>
+            <div class="choice" id="scissors">scissors</div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
